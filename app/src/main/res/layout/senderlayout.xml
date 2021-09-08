@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSender"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+         android:layout_alignParentRight="true"
+
+        app:cardCornerRadius="@dimen/_30sdp">
+
+        <ImageView
+            android:id="@+id/ivSender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            app:srcCompat="@drawable/person" />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/cvSender"
+        android:text="dlbvifvebufevhb vhv vh ds"
+        android:background="@drawable/sender_background"
+        android:textColor="@color/black"
+        android:padding="@dimen/_5sdp"
+        android:id="@+id/tvSender"
+        android:textSize="16sp"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
